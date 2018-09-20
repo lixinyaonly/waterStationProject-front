@@ -38,9 +38,11 @@
 			show-overflow-tooltip>
 			</el-table-column>
 			<el-table-column
-			prop="name"
 			label="详情"
 			width="120">
+				<template slot-scope="scope">
+				 	<el-button  type="text">详情</el-button>
+				</template> 
 			</el-table-column>
 			<el-table-column
 				label="操作"
