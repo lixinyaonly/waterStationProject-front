@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-	  <h1>鑫利康源</h1>
-    <div>
-      <menu-nav></menu-nav>
-    </div>
-    
-    <router-view/>
+    <el-container>
+    <el-aside width="200px"><menu-nav></menu-nav></el-aside>
+    <el-container>
+      <el-header>vue测试</el-header>
+      <el-main><router-view/></el-main>
+    </el-container>
+  </el-container>
   </div>
 </template>
 
 <script>
-import menuNav from './components/menu.vue'
+import menuNav from "./components/menu.vue";
 export default {
   name: "App",
   components: {
@@ -20,8 +21,8 @@ export default {
 </script>
 
 <style>
-body{
-	margin: 0;
+body {
+  margin: 0;
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -30,7 +31,8 @@ body{
   text-align: center;
   color: #2c3e50;
 }
-.el-menu--collapse .el-menu .el-submenu, .el-menu--popup {
-    min-width: 150px;
+.el-menu--collapse .el-menu .el-submenu,
+.el-menu--popup {
+  min-width: 150px;
 }
 </style>

@@ -1,0 +1,22 @@
+html,body,#app,section,aside {
+    height: 100%;
+}
+
+.leftContainer{
+    height: 100%;
+    background-color:#545c64;
+    overflow: hidden;
+}
+.el-breadcrumb{
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.title .space {
+    height: 18px;
+    width: 4px;
+    background: #989eaa;
+    float: left;
+    margin-right: 16px;
+    cursor: pointer;
+}
