@@ -17,7 +17,7 @@
         </el-submenu>
         <el-submenu index="2">
             <template slot="title">订单内容管理</template>
-            <el-menu-item index="2-1">当前订单</el-menu-item>
+            <el-menu-item index="/orderManage/Strombestellung">当前订单</el-menu-item>
             <el-menu-item index="2-2">订单查询</el-menu-item>
             <el-menu-item index="2-3">今日订单</el-menu-item>
         </el-submenu>
@@ -28,7 +28,7 @@
         </el-submenu>
         <el-submenu index="4">
             <template slot="title">员工信息管理</template>
-            <el-menu-item index="4-1">员工信息</el-menu-item>
+            <el-menu-item index="/employeeManage/staffInfo">员工信息</el-menu-item>
             <el-menu-item index="4-2">工作统计</el-menu-item>
             <el-menu-item index="4-2">配送排名</el-menu-item>
         </el-submenu>
